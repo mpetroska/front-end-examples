@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;	
+}
+
+#game_grid{
+	max-width: 630px;
+	margin: 0 auto;
+	margin-top: 150px;	
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	grid-template-rows: 200px 200px;
+	grid-gap: 10px;
+}
+
+.game_cube {
+	border-radius: 15px;
+	border:1px solid black;
+}
+
+#guess {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px auto;
+}
+
+button {
+	width: 80px;
+	height: 30px;
+	border: none;
+}
+
